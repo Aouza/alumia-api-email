@@ -1,5 +1,5 @@
 const express = require("express");
-const SMTP_CONFIG = require("./config/smtp");
+const SMTP_CONFIG = require("../config/smtp");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
